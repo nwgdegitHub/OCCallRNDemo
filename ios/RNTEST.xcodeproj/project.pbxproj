@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		01C89B4F2359E71800215854 /* RNPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C89B4E2359E71800215854 /* RNPageController.m */; };
+		01D557A8235AECC400DF093E /* RNPageController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D557A7235AECC400DF093E /* RNPageController2.m */; };
 		7C31785D23585674000A53BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C31785C23585674000A53BD /* AppDelegate.m */; };
 		7C31786023585674000A53BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C31785F23585674000A53BD /* ViewController.m */; };
 		7C31786323585674000A53BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C31786123585674000A53BD /* Main.storyboard */; };
@@ -21,6 +22,8 @@
 /* Begin PBXFileReference section */
 		01C89B4D2359E71800215854 /* RNPageController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNPageController.h; sourceTree = "<group>"; };
 		01C89B4E2359E71800215854 /* RNPageController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNPageController.m; sourceTree = "<group>"; };
+		01D557A6235AECC400DF093E /* RNPageController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNPageController2.h; sourceTree = "<group>"; };
+		01D557A7235AECC400DF093E /* RNPageController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNPageController2.m; sourceTree = "<group>"; };
 		17603456D2D0465FB1EB8D07 /* Pods-RNTEST.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTEST.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNTEST/Pods-RNTEST.debug.xcconfig"; sourceTree = "<group>"; };
 		7C31785823585674000A53BD /* RNTEST.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNTEST.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C31785B23585674000A53BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -93,6 +96,8 @@
 				7C31786A23585675000A53BD /* main.m */,
 				01C89B4D2359E71800215854 /* RNPageController.h */,
 				01C89B4E2359E71800215854 /* RNPageController.m */,
+				01D557A6235AECC400DF093E /* RNPageController2.h */,
+				01D557A7235AECC400DF093E /* RNPageController2.m */,
 			);
 			path = RNTEST;
 			sourceTree = "<group>";
@@ -202,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C667FAD2359B88F009415B3 /* ReactInteraction.m in Sources */,
+				01D557A8235AECC400DF093E /* RNPageController2.m in Sources */,
 				7C31786023585674000A53BD /* ViewController.m in Sources */,
 				01C89B4F2359E71800215854 /* RNPageController.m in Sources */,
 				7C31786B23585675000A53BD /* main.m in Sources */,

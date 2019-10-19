@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "RNPageController.h"
+#import "RNPageController2.h"
 @interface ViewController ()
 
 @end
@@ -20,11 +21,14 @@
    
 }
 
-- (IBAction)highScoreButtonPressed:(id)sender {
+- (IBAction)goRNPageButtonPressed:(id)sender {
     RNPageController *next = [[self storyboard] instantiateViewControllerWithIdentifier:@"RNPage"];
     [self presentViewController:next animated:YES completion:nil];
 }
 
 
-
+- (IBAction)goRNPage2ButtonPressed:(id)sender {
+    RNPageController2 *next = [[self storyboard] instantiateViewControllerWithIdentifier:@"RNPage2"];
+    [self presentViewController:next animated:YES completion:nil];
+}
 @end
