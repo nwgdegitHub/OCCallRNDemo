@@ -18,8 +18,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fgZ-SN-AEo">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fgZ-SN-AEo">
                                 <rect key="frame" x="130" y="433" width="154" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="进入RNPageController"/>
                                 <connections>
                                     <action selector="goRNPageButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="O0A-5q-RO5"/>
@@ -33,12 +34,16 @@
                                     <action selector="goRNPage2ButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a2h-Gv-c3k"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iY0-FI-jzY">
+                                <rect key="frame" x="125.5" y="531" width="163" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="进入RNPageController3"/>
+                                <connections>
+                                    <action selector="goRNPage3ButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IUe-jA-hZR"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="fgZ-SN-AEo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Lzd-Ev-PPJ"/>
-                            <constraint firstItem="fgZ-SN-AEo" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="wWS-PV-gfh"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
@@ -162,6 +167,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iga-wJ-Jd5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="641" y="64"/>
+        </scene>
+        <!--Page Controller3-->
+        <scene sceneID="1vH-KW-6Lh">
+            <objects>
+                <viewController storyboardIdentifier="RNPage3" id="Mdo-z0-XXa" customClass="RNPageController3" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UqK-06-VcN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="qfQ-Np-XEY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KKk-5r-BCf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1323" y="64"/>
         </scene>
     </scenes>
 </document>

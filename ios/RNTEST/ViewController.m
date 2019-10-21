@@ -9,6 +9,8 @@
 #import "ViewController.h"
 #import "RNPageController.h"
 #import "RNPageController2.h"
+#import "RNPageController3.h"
+
 @interface ViewController ()
 
 @end
@@ -31,4 +33,10 @@
     RNPageController2 *next = [[self storyboard] instantiateViewControllerWithIdentifier:@"RNPage2"];
     [self presentViewController:next animated:YES completion:nil];
 }
+    
+    - (IBAction)goRNPage3ButtonPressed:(id)sender {
+        RNPageController2 *next = [[self storyboard] instantiateViewControllerWithIdentifier:@"RNPage3"];
+        [self presentViewController:next animated:YES completion:nil];
+    }
+    
 @end

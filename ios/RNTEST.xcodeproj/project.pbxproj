@@ -9,14 +9,16 @@
 /* Begin PBXBuildFile section */
 		01C89B4F2359E71800215854 /* RNPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C89B4E2359E71800215854 /* RNPageController.m */; };
 		01D557A8235AECC400DF093E /* RNPageController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D557A7235AECC400DF093E /* RNPageController2.m */; };
+		0987CF5D84E28E6F1965D6EB /* libPods-RNTEST.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50721F22A293F8BCF70316A5 /* libPods-RNTEST.a */; };
 		7C31785D23585674000A53BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C31785C23585674000A53BD /* AppDelegate.m */; };
 		7C31786023585674000A53BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C31785F23585674000A53BD /* ViewController.m */; };
 		7C31786323585674000A53BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C31786123585674000A53BD /* Main.storyboard */; };
 		7C31786523585675000A53BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C31786423585675000A53BD /* Assets.xcassets */; };
 		7C31786823585675000A53BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C31786623585675000A53BD /* LaunchScreen.storyboard */; };
 		7C31786B23585675000A53BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C31786A23585675000A53BD /* main.m */; };
+		7C5DA0BE235DA3760008FC74 /* NativeInteraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5DA0BC235DA3750008FC74 /* NativeInteraction.m */; };
+		7C5DA0C1235DA4940008FC74 /* RNPageController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5DA0C0235DA4940008FC74 /* RNPageController3.m */; };
 		7C667FAD2359B88F009415B3 /* ReactInteraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C667FAC2359B88F009415B3 /* ReactInteraction.m */; };
-		C605B885E7FB622192F5ED7A /* libPods-RNTEST.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB2DA87FF4142871D140833 /* libPods-RNTEST.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,7 +26,7 @@
 		01C89B4E2359E71800215854 /* RNPageController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNPageController.m; sourceTree = "<group>"; };
 		01D557A6235AECC400DF093E /* RNPageController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNPageController2.h; sourceTree = "<group>"; };
 		01D557A7235AECC400DF093E /* RNPageController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNPageController2.m; sourceTree = "<group>"; };
-		17603456D2D0465FB1EB8D07 /* Pods-RNTEST.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTEST.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNTEST/Pods-RNTEST.debug.xcconfig"; sourceTree = "<group>"; };
+		50721F22A293F8BCF70316A5 /* libPods-RNTEST.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNTEST.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C31785823585674000A53BD /* RNTEST.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNTEST.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C31785B23585674000A53BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7C31785C23585674000A53BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -35,10 +37,14 @@
 		7C31786723585675000A53BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C31786923585675000A53BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C31786A23585675000A53BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7C5DA0BC235DA3750008FC74 /* NativeInteraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NativeInteraction.m; sourceTree = "<group>"; };
+		7C5DA0BD235DA3760008FC74 /* NativeInteraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeInteraction.h; sourceTree = "<group>"; };
+		7C5DA0BF235DA4940008FC74 /* RNPageController3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNPageController3.h; sourceTree = "<group>"; };
+		7C5DA0C0235DA4940008FC74 /* RNPageController3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNPageController3.m; sourceTree = "<group>"; };
 		7C667FAB2359B88F009415B3 /* ReactInteraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactInteraction.h; sourceTree = "<group>"; };
 		7C667FAC2359B88F009415B3 /* ReactInteraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactInteraction.m; sourceTree = "<group>"; };
-		9EB2DA87FF4142871D140833 /* libPods-RNTEST.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNTEST.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD2F5F7AEE99D615113EBB61 /* Pods-RNTEST.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTEST.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNTEST/Pods-RNTEST.release.xcconfig"; sourceTree = "<group>"; };
+		8863657EA4BDFDE6CD9906DD /* Pods-RNTEST.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTEST.release.xcconfig"; path = "Target Support Files/Pods-RNTEST/Pods-RNTEST.release.xcconfig"; sourceTree = "<group>"; };
+		C9B750FBAD980DB36CAB03DA /* Pods-RNTEST.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTEST.debug.xcconfig"; path = "Target Support Files/Pods-RNTEST/Pods-RNTEST.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,20 +52,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C605B885E7FB622192F5ED7A /* libPods-RNTEST.a in Frameworks */,
+				0987CF5D84E28E6F1965D6EB /* libPods-RNTEST.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03FE2BBE95DD9B6F8718E920 /* Pods */ = {
+		4090C8E982BA6FF7D3BEF2AA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				17603456D2D0465FB1EB8D07 /* Pods-RNTEST.debug.xcconfig */,
-				DD2F5F7AEE99D615113EBB61 /* Pods-RNTEST.release.xcconfig */,
+				C9B750FBAD980DB36CAB03DA /* Pods-RNTEST.debug.xcconfig */,
+				8863657EA4BDFDE6CD9906DD /* Pods-RNTEST.release.xcconfig */,
 			);
 			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		7C31784F23585674000A53BD = {
@@ -68,7 +75,7 @@
 				7C31785A23585674000A53BD /* RNTEST */,
 				7C31785923585674000A53BD /* Products */,
 				E7491C9FAD6F40B46F21D214 /* Frameworks */,
-				03FE2BBE95DD9B6F8718E920 /* Pods */,
+				4090C8E982BA6FF7D3BEF2AA /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +90,8 @@
 		7C31785A23585674000A53BD /* RNTEST */ = {
 			isa = PBXGroup;
 			children = (
+				7C5DA0BD235DA3760008FC74 /* NativeInteraction.h */,
+				7C5DA0BC235DA3750008FC74 /* NativeInteraction.m */,
 				7C667FAB2359B88F009415B3 /* ReactInteraction.h */,
 				7C667FAC2359B88F009415B3 /* ReactInteraction.m */,
 				7C31785B23585674000A53BD /* AppDelegate.h */,
@@ -98,6 +107,8 @@
 				01C89B4E2359E71800215854 /* RNPageController.m */,
 				01D557A6235AECC400DF093E /* RNPageController2.h */,
 				01D557A7235AECC400DF093E /* RNPageController2.m */,
+				7C5DA0BF235DA4940008FC74 /* RNPageController3.h */,
+				7C5DA0C0235DA4940008FC74 /* RNPageController3.m */,
 			);
 			path = RNTEST;
 			sourceTree = "<group>";
@@ -105,7 +116,7 @@
 		E7491C9FAD6F40B46F21D214 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9EB2DA87FF4142871D140833 /* libPods-RNTEST.a */,
+				50721F22A293F8BCF70316A5 /* libPods-RNTEST.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -117,7 +128,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C31786E23585675000A53BD /* Build configuration list for PBXNativeTarget "RNTEST" */;
 			buildPhases = (
-				273A95154FC7E74D391DB25A /* [CP] Check Pods Manifest.lock */,
+				1F83107CE1802FEAC260911A /* [CP] Check Pods Manifest.lock */,
 				7C31785423585674000A53BD /* Sources */,
 				7C31785523585674000A53BD /* Frameworks */,
 				7C31785623585674000A53BD /* Resources */,
@@ -177,7 +188,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		273A95154FC7E74D391DB25A /* [CP] Check Pods Manifest.lock */ = {
+		1F83107CE1802FEAC260911A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -207,6 +218,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C667FAD2359B88F009415B3 /* ReactInteraction.m in Sources */,
+				7C5DA0BE235DA3760008FC74 /* NativeInteraction.m in Sources */,
+				7C5DA0C1235DA4940008FC74 /* RNPageController3.m in Sources */,
 				01D557A8235AECC400DF093E /* RNPageController2.m in Sources */,
 				7C31786023585674000A53BD /* ViewController.m in Sources */,
 				01C89B4F2359E71800215854 /* RNPageController.m in Sources */,
@@ -351,7 +364,7 @@
 		};
 		7C31786F23585675000A53BD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 17603456D2D0465FB1EB8D07 /* Pods-RNTEST.debug.xcconfig */;
+			baseConfigurationReference = C9B750FBAD980DB36CAB03DA /* Pods-RNTEST.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -368,7 +381,7 @@
 		};
 		7C31787023585675000A53BD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DD2F5F7AEE99D615113EBB61 /* Pods-RNTEST.release.xcconfig */;
+			baseConfigurationReference = 8863657EA4BDFDE6CD9906DD /* Pods-RNTEST.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
