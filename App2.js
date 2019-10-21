@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {AppRegistry, StyleSheet, Text, View,NativeModules} from 'react-native';
+import {AppRegistry, StyleSheet, Text, View,Button,NativeModules} from 'react-native';
 const NativeInteraction = NativeModules.NativeInteraction;
 
 export default class App2 extends Component {
