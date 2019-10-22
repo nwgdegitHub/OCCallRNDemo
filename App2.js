@@ -2,8 +2,14 @@ import React, {Component} from 'react';
 import {AppRegistry, StyleSheet, Text, View,Button,NativeModules} from 'react-native';
 const NativeInteraction = NativeModules.NativeInteraction;
 
+//RN调用iOS 
 export default class App2 extends Component {
-
+  constructor(props) {
+    super(props);
+    this.state = {
+        notice: '默认值',
+    };
+  }
   transferIOS = () => {
     NativeInteraction.RNTransferIOS();
   }
@@ -31,6 +37,7 @@ export default class App2 extends Component {
     return (
       <View style={styles.container}>
         <Text style={styles.highScoresTitle}>我是RN界面App2</Text>
+        <Text>{this.state.notice}</Text>
         <Button
           onPress={this.transferIOS}
           title="RN调用iOS（无回调无参数）"

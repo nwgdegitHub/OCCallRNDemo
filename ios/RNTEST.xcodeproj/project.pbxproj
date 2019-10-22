@@ -16,6 +16,7 @@
 		7C31786523585675000A53BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C31786423585675000A53BD /* Assets.xcassets */; };
 		7C31786823585675000A53BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C31786623585675000A53BD /* LaunchScreen.storyboard */; };
 		7C31786B23585675000A53BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C31786A23585675000A53BD /* main.m */; };
+		7C563526235EAB1600A01046 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 7C563525235EAB1600A01046 /* main.jsbundle */; };
 		7C5DA0BE235DA3760008FC74 /* NativeInteraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5DA0BC235DA3750008FC74 /* NativeInteraction.m */; };
 		7C5DA0C1235DA4940008FC74 /* RNPageController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5DA0C0235DA4940008FC74 /* RNPageController3.m */; };
 		7C667FAD2359B88F009415B3 /* ReactInteraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C667FAC2359B88F009415B3 /* ReactInteraction.m */; };
@@ -37,6 +38,7 @@
 		7C31786723585675000A53BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C31786923585675000A53BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C31786A23585675000A53BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7C563525235EAB1600A01046 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = main.jsbundle; path = ../../release_ios/main.jsbundle; sourceTree = "<group>"; };
 		7C5DA0BC235DA3750008FC74 /* NativeInteraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NativeInteraction.m; sourceTree = "<group>"; };
 		7C5DA0BD235DA3760008FC74 /* NativeInteraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeInteraction.h; sourceTree = "<group>"; };
 		7C5DA0BF235DA4940008FC74 /* RNPageController3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNPageController3.h; sourceTree = "<group>"; };
@@ -65,7 +67,6 @@
 				C9B750FBAD980DB36CAB03DA /* Pods-RNTEST.debug.xcconfig */,
 				8863657EA4BDFDE6CD9906DD /* Pods-RNTEST.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -90,6 +91,7 @@
 		7C31785A23585674000A53BD /* RNTEST */ = {
 			isa = PBXGroup;
 			children = (
+				7C563525235EAB1600A01046 /* main.jsbundle */,
 				7C5DA0BD235DA3760008FC74 /* NativeInteraction.h */,
 				7C5DA0BC235DA3750008FC74 /* NativeInteraction.m */,
 				7C667FAB2359B88F009415B3 /* ReactInteraction.h */,
@@ -182,6 +184,7 @@
 				7C31786823585675000A53BD /* LaunchScreen.storyboard in Resources */,
 				7C31786523585675000A53BD /* Assets.xcassets in Resources */,
 				7C31786323585674000A53BD /* Main.storyboard in Resources */,
+				7C563526235EAB1600A01046 /* main.jsbundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
