@@ -28,6 +28,6 @@ target 'RNTEST' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
-
+  pod 'SDWebImage', '4.1.2'
   use_native_modules!
 end

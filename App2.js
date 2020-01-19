@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {AppRegistry, StyleSheet, Text, View,Button,NativeModules} from 'react-native';
 const NativeInteraction = NativeModules.NativeInteraction;
 
-//RN调用iOS 
+//RN调用iOS
 export default class App2 extends Component {
   constructor(props) {
     super(props);
@@ -68,7 +68,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#FFFFFF',
+    backgroundColor: 'orange',
   },
   highScoresTitle: {
     fontSize: 20,

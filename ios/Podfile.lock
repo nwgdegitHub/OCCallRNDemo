@@ -79,6 +79,9 @@ PODS:
     - React-Core (= 0.60.6)
   - React-RCTWebSocket (0.60.6):
     - React-Core (= 0.60.6)
+  - SDWebImage (4.1.2):
+    - SDWebImage/Core (= 4.1.2)
+  - SDWebImage/Core (4.1.2)
   - yoga (0.60.6.React)
 
 DEPENDENCIES:
@@ -102,11 +105,13 @@ DEPENDENCIES:
   - React-RCTText (from `../node_modules/react-native/Libraries/Text`)
   - React-RCTVibration (from `../node_modules/react-native/Libraries/Vibration`)
   - React-RCTWebSocket (from `../node_modules/react-native/Libraries/WebSocket`)
+  - SDWebImage (= 4.1.2)
   - yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - boost-for-react-native
+    - SDWebImage
 
 EXTERNAL SOURCES:
   DoubleConversion:
@@ -174,8 +179,9 @@ SPEC CHECKSUMS:
   React-RCTText: d91537e29e38dc69cf09cbca0875cf5dc7402da6
   React-RCTVibration: 7655d72dfb919dd6d8e135ca108a5a2bd9fcd7b4
   React-RCTWebSocket: 7cd2c8d0f8ddd680dc76404defba7ab1f56b83af
+  SDWebImage: cb6f9f266a9977741efcbc21e618e8be3734c774
   yoga: 5079887aa3e4c62142d6bcee493022643ee4d730
 
-PODFILE CHECKSUM: 20a20765271f122f1d69108fd57e5f68bedada67
+PODFILE CHECKSUM: 776ec78e02499896c4d3bd12d54cbf722e6b10b8
 
 COCOAPODS: 1.7.2

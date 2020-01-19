@@ -20,6 +20,7 @@
 		7C5DA0BE235DA3760008FC74 /* NativeInteraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5DA0BC235DA3750008FC74 /* NativeInteraction.m */; };
 		7C5DA0C1235DA4940008FC74 /* RNPageController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5DA0C0235DA4940008FC74 /* RNPageController3.m */; };
 		7C667FAD2359B88F009415B3 /* ReactInteraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C667FAC2359B88F009415B3 /* ReactInteraction.m */; };
+		7C819A2C2362AAEA00760865 /* TestFrameWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C819A2B2362AAEA00760865 /* TestFrameWork.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		7C5DA0C0235DA4940008FC74 /* RNPageController3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNPageController3.m; sourceTree = "<group>"; };
 		7C667FAB2359B88F009415B3 /* ReactInteraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactInteraction.h; sourceTree = "<group>"; };
 		7C667FAC2359B88F009415B3 /* ReactInteraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactInteraction.m; sourceTree = "<group>"; };
+		7C819A2B2362AAEA00760865 /* TestFrameWork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TestFrameWork.framework; sourceTree = "<group>"; };
 		8863657EA4BDFDE6CD9906DD /* Pods-RNTEST.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTEST.release.xcconfig"; path = "Target Support Files/Pods-RNTEST/Pods-RNTEST.release.xcconfig"; sourceTree = "<group>"; };
 		C9B750FBAD980DB36CAB03DA /* Pods-RNTEST.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTEST.debug.xcconfig"; path = "Target Support Files/Pods-RNTEST/Pods-RNTEST.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -55,6 +57,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0987CF5D84E28E6F1965D6EB /* libPods-RNTEST.a in Frameworks */,
+				7C819A2C2362AAEA00760865 /* TestFrameWork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,6 +121,7 @@
 		E7491C9FAD6F40B46F21D214 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7C819A2B2362AAEA00760865 /* TestFrameWork.framework */,
 				50721F22A293F8BCF70316A5 /* libPods-RNTEST.a */,
 			);
 			name = Frameworks;
@@ -371,6 +375,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = RNTEST/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -388,6 +396,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = RNTEST/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
